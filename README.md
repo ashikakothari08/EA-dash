@@ -38,3 +38,4 @@ The dataset `EA.csv` includes HR data such as:
 ```bash
 git clone https://github.com/your-username/hr-attrition-dashboard.git
 cd hr-attrition-dashboard
+pip install -r requirements.txt
