@@ -1,4 +1,3 @@
-# Generating the complete Streamlit dashboard code for app.py
 import streamlit as st
 import pandas as pd
 import seaborn as sns
@@ -102,7 +101,3 @@ with tab4:
 
 st.markdown("---")
 st.markdown("🔎 *This dashboard enables the HR team to analyze both macro and micro trends in employee attrition. Use it to inform your next retention strategy.*")
-
-
-with open("/mnt/data/app.py", "w") as f:
-    f.write(code)
